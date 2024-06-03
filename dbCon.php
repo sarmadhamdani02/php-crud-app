@@ -11,8 +11,5 @@
     if (!$dbConnection) {
         die("Coudn't connect to databse ❌");
     }
-    else{
-        echo"Connection Established";
-    }
 
 ?>

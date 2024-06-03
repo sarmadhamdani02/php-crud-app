@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
+
+.btn-container {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+label{
+  color: #0d6efd;
+}
+
+input{
+  color: #0d6efd;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #0d6efd;
+}
+
+.error-message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  border-radius: 30px;
+  color: red;
+  padding: 10px;
+}
+
+.success-message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  border-radius: 30px;
+  color: green;
+  padding: 10px;
+}
+
+.update-std-btn{
+  margin-right: 60px;
+  margin-top: 60px;
+}
